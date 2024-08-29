@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "text-from-url/text-from-url",
+  "version": "0.1.0",
+  "title": "Text From Url",
+  "category": "widgets",
+  "icon": "link",
+  "description": "Text changes depending on parameter in url",
+  "example": {},
+  "supports": {
+    "html": false,
+    "typography": {
+      "fontSize": true,
+      "__experimentalFontWeight": true
+    }
+  },
+  "textdomain": "text-from-url",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}
